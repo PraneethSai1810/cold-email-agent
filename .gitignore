@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build folders
+dist/
+build/
+
+# Vite
+.vite/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python virtual environment
+backend/venv/
+
+# Python cache
+backend/__pycache__/
+backend/*.pyc
