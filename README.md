@@ -1,10 +1,12 @@
 # Cold Email Agent
 
+![Home](./screenshots/Home.png)
+
 An AI-powered application that generates personalized cold emails by combining resume analysis with real-time company research.
 
 Instead of producing generic templates, the application retrieves recent company updates, filters trustworthy sources, and uses Google Gemini to generate concise, context-aware outreach emails.
 
-## Live Demo
+## 🌐 Live Demo
 
 **Frontend:** https://cold-email-agent-ai.vercel.app
 
@@ -12,7 +14,7 @@ Instead of producing generic templates, the application retrieves recent company
 
 ---
 
-## Features
+## ✨ Features
 
 - Upload resumes in **PDF** or **DOCX** format
 - Automatic resume text extraction
@@ -26,7 +28,7 @@ Instead of producing generic templates, the application retrieves recent company
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
 
@@ -55,9 +57,9 @@ Instead of producing generic templates, the application retrieves recent company
 
 ---
 
-## How It Works
+## ⚙️ How It Works
 
-```
+```text
 Resume
       │
       ▼
@@ -84,28 +86,30 @@ Evidence Sources
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home
 
-> Add a screenshot here
+![Home](./screenshots/Home.png)
 
 ### Generated Email
 
-> Add a screenshot here
+![Generated Email](./screenshots/email.png)
 
 ---
 
-## Running Locally
+## 🚀 Running Locally
 
-### Clone
+### Clone the repository
 
 ```bash
 git clone https://github.com/PraneethSai1810/cold-email-agent.git
 cd cold-email-agent
 ```
 
-### Backend
+---
+
+### Backend Setup
 
 ```bash
 cd backend
@@ -114,6 +118,9 @@ python -m venv venv
 
 # Windows
 venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
 
 pip install -r requirements.txt
 
@@ -128,7 +135,7 @@ http://127.0.0.1:8000
 
 ---
 
-### Frontend
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -146,30 +153,31 @@ http://localhost:5173
 
 ---
 
-## Environment Variables
+## 🔑 Environment Variables
 
-Backend
+Create a `.env` file inside the **backend** directory.
 
-```
-GEMINI_API_KEY=your_key
-
-TAVILY_API_KEY=your_key
+```env
+GEMINI_API_KEY=your_gemini_api_key
+TAVILY_API_KEY=your_tavily_api_key
 ```
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- User authentication
-- Gmail/Outlook integration
+- User Authentication
+- Gmail & Outlook integration
 - LinkedIn profile integration
 - Portfolio integration
 - Recruiter discovery
 - Email analytics
 - Subscription plans
+- AI-powered follow-up email generation
+- Company hiring insights
 
 ---
 
-## License
+## 📄 License
 
-MIT License
+This project is licensed under the MIT License.
